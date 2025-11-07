@@ -15,6 +15,6 @@ class Gt < Formula
   end
 
   test do
-    system "#{bin}/gt", "--help"
+    system bin/"gt", "--help"
   end
 end
