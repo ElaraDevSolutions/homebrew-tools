@@ -13,13 +13,6 @@ A small convenience script to:
 - show a diff and optionally commit & push the change
 
 ### Usage
-
-Make the script executable (once):
-
-```bash
-chmod +x scripts/update-gt-formula.sh
-```
-
 Basic usage (commits changes locally):
 
 ```bash
