@@ -9,6 +9,7 @@ class Gt < Formula
 
   def install
     libexec.install Dir["src/*"]
+    libexec.install "VERSION"
     (libexec/"gt.sh").chmod 0755
     (libexec/"git.sh").chmod 0755
     (libexec/"ssh.sh").chmod 0755
