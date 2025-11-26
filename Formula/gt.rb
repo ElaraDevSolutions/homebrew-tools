@@ -5,7 +5,6 @@ class Gt < Formula
   sha256 "9b82ee40bdbf6521b7d4ea5cb1a03c20c8d74f2e03896f58e3d04f7e37cc0774"
   license "MIT"
   depends_on "fzf"
-  depends_on "git"
 
   def install
     libexec.install Dir["src/*"]
