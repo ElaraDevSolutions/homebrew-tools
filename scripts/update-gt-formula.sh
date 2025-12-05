@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # update-gt-formula.sh
-# Usage: ./scripts/update-gt-formula.sh v1.0.12
+# Usage: ./scripts/update-gt-formula.sh v1.0.XX
 #
 # Downloads the tar.gz for the provided tag from the gittool repo,
 # computes the sha256 and updates Formula/gt.rb (url and sha256).
