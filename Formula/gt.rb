@@ -1,8 +1,8 @@
 class Gt < Formula
   desc "GitTool — centralizes and automates Git commands used by Elara Dev Solutions"
   homepage "https://github.com/ElaraDevSolutions/gittool"
-  url "https://github.com/ElaraDevSolutions/gittool/archive/refs/tags/v1.0.24.tar.gz"
-  sha256 "a6af06cde2620226f32008ebcadf2ce40bcf7982a227aa30ef54eb18dccc7647"
+  url "https://github.com/ElaraDevSolutions/gittool/archive/refs/tags/v1.0.26.tar.gz"
+  sha256 "4588db39264e3d96411bdca4942bce38cd9f7db91d62aa4ec938905676c2e1a5"
   license "MIT"
   depends_on "fzf"
 
