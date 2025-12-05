@@ -109,6 +109,13 @@ echo "  url: $TARBALL_URL"
 echo "  sha256: $SHA256"
 echo "  version: $VERSION"
 
+# Also update local config VERSION file used by gt -v
+CONFIG_DIR="${HOME}/.config/gittool"
+CONFIG_VERSION_FILE="${CONFIG_DIR}/VERSION"
+mkdir -p "$CONFIG_DIR"
+printf '%s\n' "$TAG" > "$CONFIG_VERSION_FILE"
+echo "Updated local config version file: $CONFIG_VERSION_FILE (value: $TAG)"
+
 echo
 echo "Diff against backup (for review):"
 diff -u "$BACKUP" "$FORMULA_PATH" || true
